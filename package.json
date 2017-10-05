@@ -30,7 +30,7 @@
     "console": "nodemon -L src/lib/Console.js"
   },
   "engines": {
-    "node": "7.4.0"
+    "node": "8.6.0"
   },
   "author": "Toshi",
   "license": "ISC"
