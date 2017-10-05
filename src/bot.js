@@ -26,8 +26,13 @@ bot.onEvent = function(session, message) {
   }
 }
 
+// function onMessage(session, message) {
+//   welcome(session)
+// }
+
+
 function onMessage(session, message) {
-  welcome(session)
+  session.reply('Hello Token from TK!')
 }
 
 function onCommand(session, command) {
@@ -69,7 +74,7 @@ function onPayment(session, message) {
 // STATES
 
 function welcome(session) {
-  sendMessage(session, `Hello Token!`)
+  sendMessage(session, `Hello Token from TK!`)
 }
 
 function pong(session) {
