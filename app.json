@@ -14,7 +14,7 @@
     },
     "STAGE": {
       "description": "Stage of deployment: development (default) or production",
-      "value": "production",
+      "value": "development",
       "required": true
     },
     "NODE_MODULES_CACHE": {
